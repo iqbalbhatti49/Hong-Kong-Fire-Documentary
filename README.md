@@ -159,6 +159,19 @@ Pull Request 適用於：
 
 如不熟悉 GitHub，可直接於 Issue 中留言，我們亦會協助整理。
 
+## 八、技術資源 (Technical Resources)
+
+本存庫包含自動化工具及 CI/CD 流程，供開發者參考：
+
+- **`.github/workflows/`**：GitHub Actions 自動化流程
+  - `publish.yml`：自動構建並發布網站至 GitHub Pages
+  - `lint.yml`：自動檢查 Markdown 格式及代碼風格 (Linting)
+- **`scripts/scraper/`**：新聞自動爬蟲 (News Scraper)
+  - 用於定時抓取各大媒體的最新報道
+  - 包含 `scraper.py` (主程式) 及 `scraped_urls.json` (已抓取紀錄)
+- **`mkdocs.yml`**：網站生成配置文件 (MkDocs Configuration)
+  - 定義網站結構、主題及多語言支援 (i18n) 設定
+
 # English Version
 
 # 11.26 Tai Po Wang Fuk Court Fire Documentary
@@ -320,3 +333,16 @@ Pull Requests are suitable for:
 ---
 
 If you are unfamiliar with GitHub, you may also leave a comment in Issues and maintainers will assist with formatting and integration.
+
+## 8. Technical Resources
+
+This repository includes automation tools and CI/CD workflows for developers:
+
+- **`.github/workflows/`**: GitHub Actions workflows
+  - `publish.yml`: Automatically builds and deploys the site to GitHub Pages
+  - `lint.yml`: Automatically checks Markdown formatting and code style (Linting)
+- **`scripts/scraper/`**: Automated News Scraper
+  - Scheduled to fetch the latest reports from major media outlets
+  - Includes `scraper.py` (main script) and `scraped_urls.json` (history record)
+- **`mkdocs.yml`**: Site Configuration
+  - Defines site structure, theme, and internationalization (i18n) settings
