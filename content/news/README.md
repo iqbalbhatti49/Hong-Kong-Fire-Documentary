@@ -28,9 +28,9 @@
 - [**CNN**](CNN/Readme.md)
 - [**Japan Times**](Japan%20Times/Readme.md)
 - [**SCMP (South China Morning Post)**](SCMP/Readme.md)
-- [**Reuters**](Reuters/Readme.md) *(待補)*
-- [**AP**](AP/Readme.md) *(待補)*
-- [**AFP**](AP/Readme.md) *(待補)*
+- [**Reuters**](Reuters/Readme.md)
+- [**AP**](AP/Readme.md)
+- [**AFP**](AFP/Readme.md) *(待補)*
 - [**Bloomberg**](Bloomberg/Readme.md) *(待補)*
 - [**New York Times**](New%20York%20Times/Readme.md) *(待補)*
 - [**Washington Post**](Washington%20Post/Readme.md) *(待補)*

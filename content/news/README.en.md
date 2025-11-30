@@ -28,9 +28,9 @@ This section compiles news reports, feature articles, and official releases from
 - [**CNN**](CNN/Readme.md)
 - [**Japan Times**](Japan%20Times/Readme.md)
 - [**SCMP (South China Morning Post)**](SCMP/Readme.md)
-- [**Reuters**](Reuters/Readme.md) *(Pending)*
-- [**AP**](AP/Readme.md) *(Pending)*
-- [**AFP**](AP/Readme.md) *(Pending)*
+- [**Reuters**](Reuters/Readme.md)
+- [**AP**](AP/Readme.md)
+- [**AFP**](AFP/Readme.md) *(Pending)*
 - [**Bloomberg**](Bloomberg/Readme.md) *(Pending)*
 - [**New York Times**](New%20York%20Times/Readme.md) *(Pending)*
 - [**Washington Post**](Washington%20Post/Readme.md) *(Pending)*
