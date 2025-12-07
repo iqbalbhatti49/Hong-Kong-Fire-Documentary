@@ -2625,3 +2625,40 @@ playwright._impl._errors.TargetClosedError: Target page, context or browser has 
 2025-12-07 23:52:23 | INFO     | Running scraper...
 2025-12-07 23:52:24 | INFO     | Found 33 new URLs to scrape
 2025-12-07 23:54:21 | INFO     | Daemon stopped by user
+2025-12-08 00:19:35 | INFO     | ============================================================
+2025-12-08 00:19:35 | INFO     | News Scraper Daemon Starting
+2025-12-08 00:19:35 | INFO     | Fork: hk-hack-007/Hong-Kong-Fire-Documentary-i
+2025-12-08 00:19:35 | INFO     | Upstream: adminlby/Hong-Kong-Fire-Documentary
+2025-12-08 00:19:35 | INFO     | Sync interval: 10 minutes
+2025-12-08 00:19:35 | INFO     | PR interval: 60 minutes
+2025-12-08 00:19:35 | INFO     | ============================================================
+2025-12-08 00:19:47 | INFO     | gh CLI authenticated
+2025-12-08 00:19:47 | INFO     | Setting up git remotes...
+2025-12-08 00:19:47 | INFO     | Configured origin remote
+2025-12-08 00:19:49 | INFO     | gh CLI authenticated
+2025-12-08 00:19:49 | INFO     | ----------------------------------------
+2025-12-08 00:19:49 | INFO     | Running periodic health check...
+2025-12-08 00:19:50 | INFO     | gh CLI authenticated
+2025-12-08 00:19:50 | INFO     | Health check passed
+2025-12-08 00:19:50 | INFO     | ----------------------------------------
+2025-12-08 00:19:50 | INFO     | Starting sync cycle...
+2025-12-08 00:19:50 | INFO     | Syncing with upstream...
+2025-12-08 00:19:51 | INFO     | Already up to date with upstream
+2025-12-08 00:19:51 | INFO     | Running scraper...
+2025-12-08 00:19:51 | INFO     | Found 33 new URLs to scrape
+2025-12-08 00:19:53 | ERROR    | Scraper error: scrape_with_uc() missing 1 required positional argument: 'config'
+2025-12-08 00:19:53 | INFO     | Committing changes...
+2025-12-08 00:19:53 | INFO     | Committed: chore(scraper): auto-scrape 2025-12-08 00:19
+2025-12-08 00:19:55 | INFO     | Pushed to origin successfully
+2025-12-08 00:19:55 | INFO     | Sync cycle complete
+2025-12-08 00:19:55 | INFO     | ----------------------------------------
+2025-12-08 00:19:55 | INFO     | Starting PR cycle...
+2025-12-08 00:19:57 | INFO     | Pushed to origin successfully
+2025-12-08 00:19:57 | INFO     | Managing PR...
+2025-12-08 00:20:01 | INFO     | Created PR: https://github.com/adminlby/Hong-Kong-Fire-Documentary/pull/8
+2025-12-08 00:20:01 | INFO     | Stats reset for new PR cycle
+2025-12-08 00:20:01 | INFO     | PR cycle complete
+2025-12-08 00:20:01 | INFO     | Run once mode, exiting...
+2025-12-08 00:20:01 | ERROR    | Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed

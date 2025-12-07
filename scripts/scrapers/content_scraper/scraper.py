@@ -333,7 +333,7 @@ async def scrape_url_async(url_info: dict, context, config: dict, retries: int =
     
     if strategy.get("use_uc"):
         log("  🔄 Trying undetected-chromedriver fallback...", "WARN")
-        return scrape_with_uc(url)
+        return scrape_with_uc(url, config)
 
     # Create new context for HTTP/2 disabled retry
     use_context = context
