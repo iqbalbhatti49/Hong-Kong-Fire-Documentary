@@ -35,6 +35,7 @@ SOURCE_DIR_MAP = {
     "商業電台": "commercial-radio",
     "NOW 新聞報導": "now-news",
     "Hong Kong Free Press": "hkfp",
+    "Yahoo HK News": "yahoo-news-hk",
 }
 
 
